@@ -13,6 +13,27 @@ dependencies = [
     "rdkit>=2025.9.3",
     "scikit-learn>=1.8.0",
     "seaborn>=0.13.2",
-    "torch==2.2.2",
+    "torch>=2.2.2",
     "umap-learn>=0.5.11",
+]
+
+[project.optional-dependencies]
+cu126 = ["torch>=2.6.0", "torchvision>=0.21.0"]
+
+[tool.uv]
+conflicts = [
+  [
+    { extra = "cu126" },
+    { extra = "cu130" },
+  ],
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu126", extra = "cu126", marker = "sys_platform == 'linux' or sys_platform == 'win32'" },
 ]
