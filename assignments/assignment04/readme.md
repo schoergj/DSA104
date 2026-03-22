@@ -1,5 +1,5 @@
-# Assignment 3
-This assignment consists of one exercise invloving a bit of feature engineering and repeating some visualisation techniques.
+# Assignment 4
+This assignment consists of one exercise around building your first NN form scratch.
 
 In order to complete this assignment, all mentioned tasks need to be completed. The assignment will be counted as complete if all relevant steps in the task are carried out and the questions in the end are answered. Code needs to be executable without errors using the DSA 104 environment.
 
