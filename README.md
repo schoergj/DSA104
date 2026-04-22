@@ -4,7 +4,7 @@ Repository for the course DSA104 AI and ML in Chemistry. All course material wil
 ## Prerequisites
 This course utilises several tools, which have to be installed on your PC (if you have done the DSA103, you are already well set):
 
-1) Git/Github: Make sure you have Git installed and a GitHub account
+1) Git/Github: Make sure you have Git installed and a GitHub account. **This repo uses Git LFS. Run `git lfs install` after cloning.**
 2) We will use the package manager uv and its virtual environment (https://docs.astral.sh/uv/). Follow the instructions on the website to install uv. In some cases (on Windows), you will get an error about an ExecutionPolicy. In order to remedy that, open a Power Shell Terminal as administrator and `Set-ExecutionPolicy -ExecutionPolicy Unrestriced -Scope LocalMachine`. Find out more here: https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.5.
 3) IDE: For running code and Jupyter notebooks and for facilitating version control, we will be using an IDE. All demonstration will be done in Visual Studio Code, but other development environments, such as Pycharm, work as well. Whatever IDE you are using, make sure that you keep it and its extensions (e.g. for Jupyter) up to date and that you are familiar with the working environment.
 

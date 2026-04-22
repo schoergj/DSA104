@@ -69,7 +69,7 @@ def calculate_mfp(df):
     mols = df["mol"].to_numpy()
     X = morgan_fp(mols)
     y = df["logS"].to_numpy()
-
+    df = df.drop(columns=["mol"], axis=1, inplace=True) # temporary column with mol-object removed.
     # train test split
     ML_X_train, ML_X_test, ML_y_train, ML_y_test = train_test_split(
         X, y, test_size=0.2, random_state=42
