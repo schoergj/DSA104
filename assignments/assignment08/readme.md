@@ -15,3 +15,4 @@ This assignment consists of a literature research around AI in the domains (chem
 
 The assignment counts as **complete if 3 papers and corresponding descriptions are submitted and the pull request will be accepted by me**. Since the literature collection will be revisited in session 23, you have time to complete this assignment **until May 11.**
 
+x
