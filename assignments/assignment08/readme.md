@@ -11,7 +11,9 @@ This assignment consists of a literature research around AI in the domains (chem
 3) extracted information about the models used (type, architecture, training strategy, ...),
 4) evaluation of the performance (and if available: comparison to other models) and outcome.
 
-- Submit your changes to the original DSA104 repo via a pull request. To do so, commit the changes in your local branch to your fork, then synchronise the fork with the origin in Github. You will be asked if you want to submit a pull request - simply confirm. I will review the changes and allow the pull request if all is ok. I will send you a quick confirmation upon that.
+- Submit your changes via a pull request to the `literature-submission` branch of the original DSA104 repo and synchronise regularly.
+
+ To do so, commit the changes in your local branch to your fork, then synchronise the fork with the origin in Github. You will be asked if you want to submit a pull request - choose the correct branch (`literature-submission`) and confirm. I will review the changes and allow the pull request if all is ok. I will send you a quick confirmation upon that.
 
 The assignment counts as **complete if 3 papers and corresponding descriptions are submitted and the pull request will be accepted by me**. Since the literature collection will be revisited in session 23, you have time to complete this assignment **until May 11.**
 
